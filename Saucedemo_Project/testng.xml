@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuacedemoProject">
+
+<listeners>
+<listener class-name="com.saucedemo.ExtentReportListener.ExtentReporterNG"/>
+</listeners>
+  <test  name="saucedemoTest">
+    <classes>
+      <class name="com.saucedemo.test.EndToEndTest"/>
+      <class name="com.saucedemo.test.LoginTest"/>   
+      <class name="com.saucedemo.test.ProductViewTest"/>
+      <class name="com.saucedemo.test.AddToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
